@@ -41,11 +41,7 @@ const FooterTwo = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
-              <div className="text">
-                <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.</p>
-              </div>
-            </div>
+            <div className="inner text-lg-right text-center mt_md--20 mt_sm--20"></div>
           </div>
         </div>
       </div>

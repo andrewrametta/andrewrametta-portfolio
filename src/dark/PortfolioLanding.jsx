@@ -15,10 +15,8 @@ import { Link } from "react-router-dom";
 const SlideList = [
   {
     textPosition: "text-left",
-    category: "Welcome to my World",
+    category: "Thanks for stopping by!",
     description: "",
-    buttonText: "Download CV",
-    buttonLink: "",
   },
 ];
 const PortfolioLanding = () => {
@@ -49,9 +47,10 @@ const PortfolioLanding = () => {
                       <h1 className="title">
                         I’m Andrew Rametta <br />
                         <TextLoop>
-                          <span> Fullstack developer.</span>
-                          <span> JavaScript beginner.</span>
-                          <span> Yogi.</span>
+                          <span> FullStack Developer</span>
+                          <span> Software Engineer</span>
+                          <span> FrontEnd Developer</span>
+                          <span> Yogi</span>
                         </TextLoop>{" "}
                       </h1>
                       <h2>based in Tampa, FL.</h2>
