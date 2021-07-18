@@ -24,7 +24,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "I am a fullstack developer by day and a parent of two by night";
+      "I am a fullstack developer by day and an expert children's book reader by night";
   const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark bg_color--9">
