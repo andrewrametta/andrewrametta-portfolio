@@ -111,7 +111,7 @@ class HeaderThree extends Component {
                   <a href="#service">Service</a>
                 </li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#portfolio">Projects</a>
                 </li>
                 <li>
                   <a href="#blog">Blog</a>
@@ -138,7 +138,7 @@ class HeaderThree extends Component {
               <a
                 className="btn-default btn-border btn-opacity"
                 target="_blank"
-                href="https://themeforest.net/checkout/from_item/31405042?license=regular"
+                href="file:///Users/Andrew/Downloads/AndrewRamettaResume%20(7).pdf"
               >
                 <span>Download CV</span>
               </a>
