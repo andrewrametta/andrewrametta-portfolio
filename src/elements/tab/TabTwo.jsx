@@ -10,6 +10,7 @@ import {
   FaCss3,
   FaJsSquare,
   FaNodeJs,
+  FaNode,
 } from "react-icons/fa";
 import { SiPostgresql } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
@@ -74,7 +75,7 @@ class TabsTwo extends Component {
                       </div>
                       <div className="single-progress">
                         <h6 className="title">
-                          <FaReact size={32} /> Express
+                          <FaNode size={32} /> Express
                         </h6>
                       </div>
                       <div className="single-progress">
