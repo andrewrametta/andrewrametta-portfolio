@@ -69,22 +69,22 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <div className="single-progress">
                         <h6 className="title">
-                          <FaNodeJs /> Node.js
+                          <FaNodeJs size={32} /> Node.js
                         </h6>
                       </div>
                       <div className="single-progress">
                         <h6 className="title">
-                          <FaReact /> Express
+                          <FaReact size={32} /> Express
                         </h6>
                       </div>
                       <div className="single-progress">
                         <h6 className="title">
-                          <SiPostgresql /> PostgreSQL
+                          <SiPostgresql size={32} /> PostgreSQL
                         </h6>
                       </div>
                       <div className="single-progress">
                         <h6 className="title">
-                          <AiOutlineConsoleSql /> SQL
+                          <AiOutlineConsoleSql size={32} /> SQL
                         </h6>
                       </div>
                     </div>
