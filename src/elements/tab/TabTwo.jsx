@@ -1,13 +1,26 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { ProgressBar } from "react-bootstrap";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaEnvelope,
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaJsSquare,
+  FaNodeJs,
+} from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 class TabsTwo extends Component {
   render() {
-    let tab1 = "Main skills",
-      tab2 = "Experience",
-      tab3 = "Education",
-      tab4 = "Fun Facts";
+    let tab1 = "Front-End",
+      tab2 = "Back-End",
+      tab3 = "Tools",
+      tab4 = "Other";
+
     const { tabStyle } = this.props;
     return (
       <div>
@@ -26,56 +39,54 @@ class TabsTwo extends Component {
 
                   <TabPanel>
                     <div className="single-tab-content">
-                      <div
-                        className={`rn-progress-bar progress-bar--1 mt_dec--10`}
-                      >
-                        <div className="single-progress">
-                          <h6 className="title">Designing</h6>
-                        </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaReact size={32} /> React
+                        </h6>
+                      </div>
 
-                        <div className="single-progress">
-                          <h6 className="title">Managment</h6>
-                        </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaHtml5 size={32} /> HTML5
+                        </h6>
+                      </div>
 
-                        <div className="single-progress">
-                          <h6 className="title">Marketing</h6>
-                        </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaCss3 size={32} /> CSS3
+                        </h6>
+                      </div>
 
-                        <div className="single-progress">
-                          <h6 className="title">Development</h6>
-                        </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaJsSquare size={32} /> JavaScript
+                        </h6>
                       </div>
                     </div>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            Awwwards.com <span>- Winner</span>
-                          </a>{" "}
-                          2019 - 2020
-                        </li>
-                        <li>
-                          <a href="/service">
-                            CSS Design Awards <span>- Winner</span>
-                          </a>{" "}
-                          2017 - 2018
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Design nominees <span>- site of the day</span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Awwwards.com <span>- Winner</span>
-                          </a>{" "}
-                          2019 - 2020
-                        </li>
-                      </ul>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaNodeJs /> Node.js
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <FaReact /> Express
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiPostgresql /> PostgreSQL
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <AiOutlineConsoleSql /> SQL
+                        </h6>
+                      </div>
                     </div>
                   </TabPanel>
 
