@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { ProgressBar } from "react-bootstrap";
 import {
-  FaLinkedinIn,
-  FaGithub,
-  FaEnvelope,
   FaReact,
   FaHtml5,
   FaCss3,
@@ -12,15 +9,22 @@ import {
   FaNodeJs,
   FaNode,
 } from "react-icons/fa";
-import { SiPostgresql } from "react-icons/si";
-import { AiOutlineConsoleSql } from "react-icons/ai";
+import {
+  SiPostgresql,
+  SiGit,
+  SiVisualstudiocode,
+  SiJquery,
+  SiPostman,
+  SiHeroku,
+} from "react-icons/si";
+import { CgDatabase } from "react-icons/cg";
+import { ImNpm } from "react-icons/im";
 
 class TabsTwo extends Component {
   render() {
     let tab1 = "Front-End",
       tab2 = "Back-End",
-      tab3 = "Tools",
-      tab4 = "Other";
+      tab3 = "Tools";
 
     const { tabStyle } = this.props;
     return (
@@ -35,7 +39,6 @@ class TabsTwo extends Component {
                     <Tab>{tab1}</Tab>
                     <Tab>{tab2}</Tab>
                     <Tab>{tab3}</Tab>
-                    <Tab>{tab4}</Tab>
                   </TabList>
 
                   <TabPanel>
@@ -63,6 +66,11 @@ class TabsTwo extends Component {
                           <FaJsSquare size={32} /> JavaScript
                         </h6>
                       </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiJquery size={32} /> jQuery
+                        </h6>
+                      </div>
                     </div>
                   </TabPanel>
 
@@ -85,7 +93,7 @@ class TabsTwo extends Component {
                       </div>
                       <div className="single-progress">
                         <h6 className="title">
-                          <AiOutlineConsoleSql size={32} /> SQL
+                          <CgDatabase size={32} /> SQL
                         </h6>
                       </div>
                     </div>
@@ -93,67 +101,31 @@ class TabsTwo extends Component {
 
                   <TabPanel>
                     <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            Sr. Front-end Engineer<span> - Google</span>
-                          </a>{" "}
-                          2018 - Current
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Front-end Engineer<span> - Microsoft</span>
-                          </a>{" "}
-                          2017 - 2018
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Software Engineer<span> - Alibaba </span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Software Engineer<span> - Alibaba </span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            BSc In CSE
-                            <span> - ABC University, Los Angeles, CA</span>
-                          </a>{" "}
-                          2010
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Diploma in Computer Science
-                            <span> - Gamma Technical Institute</span>
-                          </a>{" "}
-                          2009
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Graphic Designer
-                            <span> - ABC Institute, Los Angeles, CA</span>
-                          </a>{" "}
-                          2007
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Graphic Designer
-                            <span> - ABC Institute, Los Angeles, CA</span>
-                          </a>{" "}
-                          2007
-                        </li>
-                      </ul>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiGit size={32} /> Git
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiVisualstudiocode size={32} /> VS Code
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <ImNpm size={32} /> Node Package Manager
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiPostman size={32} /> Postman
+                        </h6>
+                      </div>
+                      <div className="single-progress">
+                        <h6 className="title">
+                          <SiHeroku size={32} /> Heroku
+                        </h6>
+                      </div>
                     </div>
                   </TabPanel>
                 </Tabs>
