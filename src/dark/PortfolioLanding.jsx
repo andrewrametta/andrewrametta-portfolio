@@ -20,7 +20,7 @@ const SlideList = [
   },
 ];
 const PortfolioLanding = () => {
-  let title = "About Me",
+  let title = "My Skills and Technologies",
     description =
       "I am a fullstack developer by day and an expert children's book reader by night";
   const PostList = BlogContent.slice(0, 3);
@@ -50,7 +50,7 @@ const PortfolioLanding = () => {
                           <span> FullStack Developer</span>
                           <span> Software Engineer</span>
                           <span> FrontEnd Developer</span>
-                          <span> Yogi</span>
+                          <span> Yoga Instructor</span>
                         </TextLoop>{" "}
                       </h1>
                       <h2>based in Tampa, FL.</h2>
@@ -154,12 +154,11 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center mb--30 mb_sm--0">
-                    <span className="subtitle">My Complete project</span>
-                    <h2 className="title">My Latest Project</h2>
+                    <span className="subtitle">My Portfolio</span>
+                    <h2 className="title">My Projects</h2>
                     <p className="description">
-                      There are many variations of passages of Lorem Ipsum
-                      available, <br /> but the majority have suffered
-                      alteration.
+                      I code to help make people's lives better and because its
+                      fun!
                     </p>
                   </div>
                 </div>
@@ -170,15 +169,6 @@ const PortfolioLanding = () => {
                   column="col-lg-4 col-md-6 col-sm-6 col-12"
                   item="6"
                 />
-              </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                    <a className="btn-default" href="/portfolio">
-                      <span>View Projects</span>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
