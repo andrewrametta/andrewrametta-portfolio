@@ -167,7 +167,7 @@ const PortfolioLanding = () => {
                 <PortfolioList
                   styevariation="text-center mt--40"
                   column="col-lg-4 col-md-6 col-sm-6 col-12"
-                  item="6"
+                  item="3"
                 />
               </div>
             </div>
