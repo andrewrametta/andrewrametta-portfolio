@@ -9,7 +9,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
+
 import { Link } from "react-router-dom";
 
 const SlideList = [
@@ -23,7 +23,7 @@ const PortfolioLanding = () => {
   let title = "My Skills and Technologies",
     description =
       "I am a fullstack developer by day and an expert children's book reader by night";
-  const PostList = BlogContent.slice(0, 3);
+
   return (
     <div className="active-dark bg_color--9">
       <Helmet pageTitle="Portfolio Landing" />
@@ -175,71 +175,6 @@ const PortfolioLanding = () => {
         </div>
       </div>
       {/* End Portfolio Area */}
-
-      {/* Start Blog Area */}
-      <div id="blog" className="fix">
-        <div className="rn-blog-area pb--120 bg_color--8 mb-dec--30">
-          <div className="container">
-            <div className="row align-items-end">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <div className="section-title text-center">
-                  <span className="subtitle">My Latest Post</span>
-                  <h2 className="title">Latest News</h2>
-                  <p className="description">
-                    There are many variations of passages of Lorem Ipsum
-                    available, <br />
-                    but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row mt--30 mt_sm--40">
-              {PostList.map((value, i) => (
-                <div className="col-lg-4 col-md-6 col-12 mt--30" key={i}>
-                  <div className="im_box">
-                    <div className="thumbnail">
-                      <Link to="/blog-details">
-                        <img
-                          className="w-100"
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt="Blog Images"
-                        />
-                      </Link>
-                    </div>
-                    <div className="content">
-                      <div className="inner">
-                        <div className="content_heading">
-                          <div className="category_list">
-                            <Link to="/portfolio-details">
-                              {value.category}
-                            </Link>
-                          </div>
-                          <h4 className="title">
-                            <Link to="/blog-details">{value.title}</Link>
-                          </h4>
-                        </div>
-                        <div className="content_footer">
-                          <Link
-                            to="/blog-details"
-                            className="rn-btn btn-opacity"
-                          >
-                            Read More
-                          </Link>
-                        </div>
-                      </div>
-                      <Link
-                        className="transparent_link"
-                        to="/blog-details"
-                      ></Link>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* End Blog Area */}
 
       {/* Start COntact Area */}
       <div id="contact" className="fix">
