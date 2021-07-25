@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
+import { FaEye, FaGithubSquare } from "react-icons/fa";
 
 const ServiceList = [
   {
     icon: (
       <img src="/assets/images/portfolio/portfolio-1.png" alt="PayitForward" />
     ),
-    title: "",
+    title: "PayItForward",
     description:
       "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    buttonText1: "Live Demo",
+    buttonLink1: "",
+    buttonText2: "GitHub Repo",
+    buttonLink2: "",
   },
   {
     icon: (
@@ -17,33 +22,23 @@ const ServiceList = [
         alt="PayitForward"
       />
     ),
-    title: "Website Development",
+    title: "Daily Gratitude",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "I throw myself down among the tall grass by the stream as I lie close to the earth. This is to see how the card will adjust depending on the type of text and how long the text is",
+    buttonText1: "  Live Demo",
+    buttonLink1: "",
+    buttonText2: "GitHub Repo",
+    buttonLink2: "",
   },
   {
     icon: <FiUsers />,
     title: "Marketing & Reporting",
     description:
       "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Mobile App Development",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-  },
-  {
-    icon: <FiUsers />,
-    title: "Marketing & Reporting",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Mobile App Development",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    buttonText1: "Live Demo",
+    buttonLink1: "",
+    buttonText2: "GitHub Repo",
+    buttonLink2: "",
   },
 ];
 
@@ -63,6 +58,39 @@ class ServiceThree extends Component {
                   <div className="content">
                     <h3 className="title">{val.title}</h3>
                     <p>{val.description}</p>
+                    {val.buttonText1 ? (
+                      <div className="slide-btn">
+                        <a
+                          className="btn-default"
+                          target="_blank"
+                          href={`${val.buttonLink1}`}
+                        >
+                          <FaEye size="22" style={{ marginRight: ".5rem" }} />
+                          {"     "}
+                          {val.buttonText1}
+                        </a>
+                      </div>
+                    ) : (
+                      ""
+                    )}
+                    <br />
+                    {val.buttonText2 ? (
+                      <div className="slide-btn">
+                        <a
+                          className="btn-default"
+                          target="_blank"
+                          href={`${val.buttonLink2}`}
+                        >
+                          <FaGithubSquare
+                            size="24"
+                            style={{ marginRight: ".5rem" }}
+                          />
+                          {val.buttonText2}
+                        </a>
+                      </div>
+                    ) : (
+                      ""
+                    )}
                   </div>
                 </div>
               </a>
