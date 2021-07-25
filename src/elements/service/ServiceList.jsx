@@ -4,14 +4,19 @@ import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
 const ServiceList = [
   {
     icon: (
-      <img src="/assets/images/portfolio/payitforward.jpg" alt="PayitForward" />
+      <img src="/assets/images/portfolio/portfolio-1.png" alt="PayitForward" />
     ),
     title: "",
     description:
       "I throw myself down among the tall grass by the stream as I lie close to the earth.",
   },
   {
-    icon: <FiLayers />,
+    icon: (
+      <img
+        src="/assets/images/portfolio/dailygratitude.png"
+        alt="PayitForward"
+      />
+    ),
     title: "Website Development",
     description:
       "I throw myself down among the tall grass by the stream as I lie close to the earth.",
