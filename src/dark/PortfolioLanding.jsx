@@ -123,12 +123,8 @@ const PortfolioLanding = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30 mb_sm--0">
-                  <span className="subtitle">What I can do for you</span>
-                  <h2 className="title">My Awesome Service</h2>
-                  <p className="description">
-                    There are many variations of passages of Lorem Ipsum
-                    available, <br /> but the majority have suffered alteration.
-                  </p>
+                  <span className="subtitle">Check out some of my work</span>
+                  <h2 className="title">My Latest Projects</h2>
                 </div>
               </div>
             </div>
