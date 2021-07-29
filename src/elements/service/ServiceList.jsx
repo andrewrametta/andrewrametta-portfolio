@@ -6,9 +6,9 @@ const ServiceList = [
     icon: (
       <img src="/assets/images/portfolio/portfolio-1.png" alt="PayitForward" />
     ),
-    title: "PayItForward",
+    title: "PostgreSQL, Express, React(Hooks), Node",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Fullstack web application donation based platform that connects donors to local nonprofits.",
     buttonText1: "Live Demo",
     buttonLink1: "https://pay-it-forward.vercel.app/login",
     buttonText2: "GitHub Repo",
@@ -21,13 +21,13 @@ const ServiceList = [
         alt="Daily Gratitude"
       />
     ),
-    title: "Daily Gratitude",
+    title: "PostgreSQL, Express, React, Node",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth. This is to see how the card will adjust depending on the type of text and how long the text is",
+      "Fullstack web application gratitude journal where users can log their entries.",
     buttonText1: "  Live Demo",
-    buttonLink1: "https://pay-it-forward.vercel.app/login",
+    buttonLink1: "https://daily-gratitude-app-andrewrametta.vercel.app/",
     buttonText2: "GitHub Repo",
-    buttonLink2: "https://github.com/andrewrametta/pay-it-forward",
+    buttonLink2: "https://github.com/andrewrametta/daily-gratitude-app",
   },
   {
     icon: (
@@ -36,11 +36,11 @@ const ServiceList = [
         alt="Quarantine Date Night"
       />
     ),
-    title: "Marketing & Reporting",
+    title: "HTML, CSS, JavaScript, jQuery, and RESTful APIs",
     description:
       "I throw myself down among the tall grass by the stream as I lie close to the earth.",
     buttonText1: "Live Demo",
-    buttonLink1: "",
+    buttonLink1: "https://andrewrametta.github.io/quarantine-date-night/",
     buttonText2: "GitHub Repo",
     buttonLink2: "https://github.com/andrewrametta/quarantine-date-night",
   },
@@ -58,6 +58,7 @@ class ServiceThree extends Component {
             <div className={`${column}`} key={i}>
               <div className="service service__style--2 text-left bg-gray">
                 <div className="icon">{val.icon}</div>
+                <br />
                 <div className="content">
                   {val.buttonText1 ? (
                     <div className="slide-btn">
