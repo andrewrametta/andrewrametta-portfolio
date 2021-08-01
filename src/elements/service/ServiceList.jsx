@@ -38,7 +38,7 @@ const ServiceList = [
     ),
     title: "HTML, CSS, JavaScript, jQuery, and RESTful APIs",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+      "Frontend web application that searches for recipes and movies with API fetch calls.",
     buttonText1: "Live Demo",
     buttonLink1: "https://andrewrametta.github.io/quarantine-date-night/",
     buttonText2: "GitHub Repo",

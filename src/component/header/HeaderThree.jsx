@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
+import pdf from "../../../public/assets/AndrewRametta.pdf";
 
 const SocialShare = [
   {
@@ -131,7 +132,7 @@ class HeaderThree extends Component {
                 className="btn-default btn-border btn-opacity"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="file:///Users/Andrew/Downloads/AndrewRamettaResume%20(7).pdf"
+                href={pdf}
               >
                 <span>Download CV</span>
               </a>
