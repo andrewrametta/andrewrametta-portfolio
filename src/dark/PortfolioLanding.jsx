@@ -14,6 +14,8 @@ const SlideList = [
     textPosition: "text-left",
     category: "Thanks for stopping by!",
     description: "",
+    buttonText: "See my work",
+    buttonLink: "#service",
   },
 ];
 const PortfolioLanding = () => {
