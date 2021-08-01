@@ -7,7 +7,7 @@ const SocialShare = [
     link: "https://www.linkedin.com/in/andrewrametta/",
   },
   { Social: <FaGithub />, link: "https://github.com/andrewrametta" },
-  { Social: <FaEnvelope />, link: "https://twitter.com/" },
+  { Social: <FaEnvelope />, link: "mailto:ramettaandrewj@gmail.com" },
 ];
 
 const FooterTwo = () => {
