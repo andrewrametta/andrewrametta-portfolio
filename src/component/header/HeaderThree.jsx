@@ -90,14 +90,7 @@ class HeaderThree extends Component {
             <nav className="mainmenunav d-lg-block ml--50">
               <Scrollspy
                 className="mainmenu"
-                items={[
-                  "home",
-                  "about",
-                  "service",
-                  "portfolio",
-                  "blog",
-                  "contact",
-                ]}
+                items={["home", "about", "service", "contact"]}
                 currentClassName="is-current"
                 offset={-200}
               >
