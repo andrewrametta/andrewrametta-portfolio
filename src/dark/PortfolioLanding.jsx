@@ -9,8 +9,6 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import ServiceList from "../elements/service/ServiceList";
 
-import { Link } from "react-router-dom";
-
 const SlideList = [
   {
     textPosition: "text-left",

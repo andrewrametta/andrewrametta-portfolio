@@ -32,7 +32,11 @@ const FooterTwo = () => {
               <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
-                    <a target="_blank" href={`${val.link}`}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`${val.link}`}
+                    >
                       {val.Social}
                     </a>
                   </li>

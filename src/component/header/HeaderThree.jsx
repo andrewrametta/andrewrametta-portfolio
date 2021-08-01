@@ -115,7 +115,11 @@ class HeaderThree extends Component {
               <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
-                    <a target="_blank" href={`${val.link}`}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`${val.link}`}
+                    >
                       {val.Social}
                     </a>
                   </li>
@@ -126,6 +130,7 @@ class HeaderThree extends Component {
               <a
                 className="btn-default btn-border btn-opacity"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="file:///Users/Andrew/Downloads/AndrewRamettaResume%20(7).pdf"
               >
                 <span>Download CV</span>

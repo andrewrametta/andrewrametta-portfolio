@@ -65,6 +65,7 @@ class ServiceThree extends Component {
                       <a
                         className="btn-default"
                         target="_blank"
+                        rel="noopener noreferrer"
                         href={`${val.buttonLink1}`}
                       >
                         <FaEye size="22" style={{ marginRight: ".5rem" }} />
@@ -81,6 +82,7 @@ class ServiceThree extends Component {
                       <a
                         className="btn-default"
                         target="_blank"
+                        rel="noopener noreferrer"
                         href={`${val.buttonLink2}`}
                       >
                         <FaGithubSquare
