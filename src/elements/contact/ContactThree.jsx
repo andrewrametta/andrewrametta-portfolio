@@ -23,20 +23,17 @@ class ContactThree extends Component {
                 <div className="im_address_inner">
                   <div className="im_address">
                     <span>Call us directly:</span>
-                    <a
-                      className="link im-hover"
-                      href="tel:+111 (0)55 5869 8976<"
-                    >
-                      +111 (0)55 5869 8976
+                    <a className="link im-hover" href="tel:+1-813-494-1559<">
+                      (813) 494-1559
                     </a>
                   </div>
                   <div className="im_address mt--5">
                     <span>Contact Email:</span>
                     <a
                       className="link im-hover"
-                      href="mailto:example@gmail.com"
+                      href="mailto:ramettaandrewj@gmail.com"
                     >
-                      example@gmail.com
+                      ramettaandrewj@gmail.com
                     </a>
                   </div>
                 </div>
