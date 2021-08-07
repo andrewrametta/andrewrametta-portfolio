@@ -25,7 +25,7 @@ const PortfolioLanding = () => {
 
   return (
     <div className="active-dark bg_color--9">
-      <Helmet pageTitle="Portfolio Landing" />
+      <Helmet pageTitle="Andrew Rametta" />
 
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
 
